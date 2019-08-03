@@ -6521,8 +6521,18 @@ a.close.disabled {
 
 .bg-image {
   background-image: url('C:\\Users\\Maciej Stanuch\\dev\\TRAM\\Tram-2.0\\static\\img\\feature_image.jpg') !important;
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+@media(min-width:1027px){
+.bg-image {
+  background-image: url('C:\\Users\\Maciej Stanuch\\dev\\TRAM\\Tram-2.0\\static\\img\\feature_image.jpg') !important;
   background-color: #000000;
   background-position: center;
+  background-size: auto;
+}
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9864,6 +9874,10 @@ button.bg-dark:focus {
 
 .text-primary {
   color: #007bff !important;
+}
+
+.text-blue {
+  color: #38428c !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
